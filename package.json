@@ -1,0 +1,31 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trjohnst/build.git"
+  },
+  "author": "Thomas Johnston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trjohnst/build/issues"
+  },
+  "homepage": "https://github.com/trjohnst/build#readme",
+  "dependencies": {
+    "browserify": "12.0.1",
+    "babelify": "7.2.0",
+    "babel-preset-es2015": "6.3.13",
+    "postcss": "5.0.13",
+    "postcss-scss": "0.1.3",
+    "postcss-simple-vars": "1.1.0",
+    "postcss-nested": "1.0.0",
+    "postcss-import": "7.1.3",
+    "autoprefixer": "6.2.0",
+    "cssnano": "3.4.0"
+  }
+}
